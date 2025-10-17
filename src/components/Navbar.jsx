@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <>
             <header>
-                <img src="./src/assets/image/icon_01.png" class="logo" alt="Logo"></img>
+                <img src="/icon_01.png" class="logo" alt="Logo"></img>
                 <button class="menu-btn" id="menu-btn">☰</button>
                 <nav id="sidebar">
                     <button class="close-btn" id="close-btn">✖</button>
