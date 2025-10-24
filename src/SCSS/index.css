@@ -171,7 +171,6 @@ header nav a:hover {
   animation-delay: calc(0.2s * var(--i));
   margin: 30px 15px 30px 0;
 }
-
 .home-sci a:hover {
   background: #0ef;
   color: #081b29;
@@ -194,7 +193,6 @@ header nav a:hover {
   animation-delay: 2s;
   box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
 }
-
 .btn-box:hover {
   box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
 }
@@ -207,6 +205,7 @@ header nav a:hover {
   opacity: 0;
   animation: slideLeft 1s ease forwards;
   animation-delay: 0.7s;
+  transition: 1s ease;
 }
 
 @media (max-width: 992px) {
@@ -264,6 +263,10 @@ header nav a:hover {
   }
   header {
     padding: 0.15rem 5%;
+  }
+  .logo {
+    height: 3rem;
+    width: 3rem;
   }
   header nav {
     position: fixed;
@@ -329,9 +332,10 @@ header nav a:hover {
   }
   /* ====================Home Section==================== */
   .home {
-    padding: 170px 20px 40px;
+    padding: 70px 5% 70px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
   }
   .home-content h3 {
     font-size: 1.35rem;
@@ -349,6 +353,7 @@ header nav a:hover {
     font-size: 1.1rem;
   }
   .home-content img {
-    display: none;
+    height: 13rem;
+    width: 13rem;
   }
 }/*# sourceMappingURL=index.css.map */

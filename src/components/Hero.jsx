@@ -12,7 +12,7 @@ const Hero = () => {
         "Full Stack Web Developer",
         "Frontend Developer.",
         "Backend Developer.",
-        "UI & UX Designer."
+        "UI &amp; UX Designer."
       ],
       typeSpeed: 70,
       backSpeed: 70,
@@ -35,10 +35,7 @@ const Hero = () => {
           And I'm a <span ref={typedRef}></span>
         </h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          <br /> Aliquam, at omnis sit officiis consequatur libero, iusto,
-          quod vel expedita dignissimos deserunt? Iste harum quidem amet odit
-          sed excepturi, quo dolore.
+          I'm a passionate MERN Stack Developer with a strong focus on building modern, scalable, and user-friendly web applications. I love turning creative ideas into fully functional digital products using MongoDB, Express.js, React.js, and Node.js.
         </p>
         <div className="home-sci">
           <a

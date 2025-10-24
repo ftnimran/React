@@ -66,12 +66,12 @@
   animation: slideLeft 1s ease forwards;
   animation-delay: calc(.2s * var(--i));
   margin: 30px 15px 30px 0;
-}
 
-.home-sci a:hover {
-  background: #0ef;
-  color: #081b29;
-  box-shadow: 0 0 20px #0ef;
+  &:hover {
+    background: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 20px #0ef;
+  }
 }
 
 .btn-box {
@@ -90,12 +90,12 @@
   animation-delay: 2s;
   box-shadow: 0 0 5px #0ef,
     0 0 25px #0ef;
-}
 
-.btn-box:hover {
-  box-shadow: 0 0 5px cyan,
-    0 0 25px cyan, 0 0 50px cyan,
-    0 0 100px cyan, 0 0 200px cyan;
+  &:hover {
+    box-shadow: 0 0 5px cyan,
+      0 0 25px cyan, 0 0 50px cyan,
+      0 0 100px cyan, 0 0 200px cyan;
+  }
 }
 
 .home-content img {
@@ -106,4 +106,13 @@
   opacity: 0;
   animation: slideLeft 1s ease forwards;
   animation-delay: .7s;
+  transition: 1s ease;
+
+  // &:hover{
+  //   cursor: pointer;
+  //   transform: scale(1.05);
+  //   box-shadow: 0 0 5px orange,
+  //       0 0 25px white, 0 0 50px green,
+  //       0 0 100px cyan, 0 0 200px cyan;
+  // }
 }

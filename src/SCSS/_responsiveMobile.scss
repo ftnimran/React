@@ -1,12 +1,18 @@
 /* ====================== RESPONSIVE STYLE ====================== */
 
 @media (max-width: 767px) {
+
   .menu-btn {
     display: block;
   }
 
   header {
     padding: 0.15rem 5%;
+  }
+
+  .logo {
+    height: 3rem;
+    width: 3rem;
   }
 
   header nav {
@@ -80,9 +86,10 @@
   /* ====================Home Section==================== */
 
   .home {
-    padding: 170px 20px 40px;
+    padding: 70px 5% 70px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
   }
 
   .home-content h3 {
@@ -107,7 +114,9 @@
 
 
   .home-content img {
-    display: none;
+    height: 13rem;
+    width: 13rem;
+    // padding: ;
   }
 
 }
