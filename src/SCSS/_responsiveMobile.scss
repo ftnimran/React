@@ -5,10 +5,14 @@
     display: block;
   }
 
+  header {
+    padding: 0.15rem 5%;
+  }
+
   header nav {
     position: fixed;
     top: 0;
-    right: -300px;
+    right: -400px;
     width: 50%;
     height: 100%;
     background: rgba(30, 30, 30, 0.5);
@@ -31,7 +35,7 @@
     top: 18px;
     right: 20px;
     font-size: 26px;
-    margin: 0.15rem 11%;
+    // margin: 0.15rem 11%;
     color: white;
     cursor: pointer;
     background: none;
@@ -97,7 +101,8 @@
   }
 
   .home-content p {
-  font-size: 1.1rem;}
+    font-size: 1.1rem;
+  }
 
 
 

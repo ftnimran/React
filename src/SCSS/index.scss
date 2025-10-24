@@ -20,9 +20,10 @@ body {
     // user-select: none
 }
 
-@import './_Navbar.scss';
-// @import "./_Hero.scss";
+@import './_navbar.scss';
+@import './_hero.scss';
 // @import "./_Sections.scss";
 // @import "./_Footer.scss";
+@import '_responsiveTablet.scss';
 @import '_keyframesAnimation.scss';
 @import '_responsiveMobile.scss';
