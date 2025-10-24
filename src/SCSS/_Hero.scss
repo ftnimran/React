@@ -1,0 +1,15 @@
+.hero {
+  width: 100%;
+  height: 91vh;
+  background-color: #0f1c2a;
+  padding: 0 10rem;
+  display: flex;
+  // align-items: center;  
+  justify-content: center;
+}
+.hero div {
+  height: 100%;
+  width: 100%;
+  // padding: 5px 10px;
+  border: 1px solid #ededed;
+}
