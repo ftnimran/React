@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logoIcon from '../assets/image/icon_01.png'
 // import "./Alibhai.css"; // optional for styling
 
 const Navbar = () => {
@@ -10,7 +11,7 @@ const Navbar = () => {
   return (
     <div>
       <header>
-        <img src="/src/assets/image/icon_01.png" className="logo" alt="Logo" />
+        <img src={logoIcon} className="logo" alt="Logo" />
         <button className="menu-btn" onClick={openSidebar}>
           ☰
         </button>
