@@ -1,0 +1,25 @@
+@mixin section {
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+    padding: 70px 5% 0;
+}
+
+@mixin section-title {
+    padding-top: .8rem;
+    text-align: center;
+    font-size: 45px;
+
+    span {
+        color: #0ef;
+    }
+}
+
+@mixin section-title-mobile {
+    padding-top: .8rem;
+    font-size: 30px;
+
+    span {
+        color: #0ef;
+    }
+}

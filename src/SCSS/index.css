@@ -208,6 +208,22 @@ header nav a:hover {
   transition: 1s ease;
 }
 
+.about {
+  width: 100%;
+  min-height: 100vh;
+  max-height: auto;
+  padding: 70px 5% 0;
+}
+
+.section-title h2 {
+  padding-top: 0.8rem;
+  text-align: center;
+  font-size: 45px;
+}
+.section-title h2 span {
+  color: #0ef;
+}
+
 @media (max-width: 992px) {
   header {
     padding: 0.15rem 5%;
@@ -355,5 +371,13 @@ header nav a:hover {
   .home-content img {
     height: 13rem;
     width: 13rem;
+  }
+  /* ====================About Section==================== */
+  .section-title h2 {
+    padding-top: 0.8rem;
+    font-size: 30px;
+  }
+  .section-title h2 span {
+    color: #0ef;
   }
 }/*# sourceMappingURL=index.css.map */

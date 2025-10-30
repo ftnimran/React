@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import logoIcon from '../assets/image/icon_01.png'
-// import "./Alibhai.css"; // optional for styling
+import logoIcon from '../assets/image/icon_01.png';
+import Resume from '../assets/pdf/imran.pdf';
 
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -25,7 +25,7 @@ const Navbar = () => {
           <a href="#skills" style={{ "--i": 3 }} onClick={closeSidebar}>Skills</a>
           <a href="#projects" style={{ "--i": 4 }} onClick={closeSidebar}>Projects</a>
           <a href="#contact" style={{ "--i": 5 }} onClick={closeSidebar}>Contact</a>
-          <a href="#resume" style={{ "--i": 6 }} onClick={closeSidebar}>Resume</a>
+          <a href={Resume} target="_blank" style={{ "--i": 6 }} onClick={closeSidebar}>Resume</a>
         </nav>
       </header>
 
