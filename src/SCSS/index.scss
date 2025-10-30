@@ -20,10 +20,11 @@ body {
     // user-select: none
 }
 
-@import './mixins';
+@import './mixins.scss';
 @import './_navbar.scss';
 @import './_hero.scss';
-@import './about';
+@import './about.scss';
+@import './skills.scss';
 // @import "./_Sections.scss";
 // @import "./_Footer.scss";
 @import '_responsiveTablet.scss';

@@ -3,6 +3,7 @@
     min-height: 100vh;
     max-height: auto;
     padding: 70px 10% 0;
+    border: 2px solid gray;
 }
 
 @mixin section-title {
@@ -16,8 +17,8 @@
 }
 
 @mixin section-title-mobile {
-    padding-top: .8rem;
-    font-size: 30px;
+    padding-top: .4rem;
+    font-size: 25px;
 
     span {
         color: #0ef;

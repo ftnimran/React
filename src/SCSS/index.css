@@ -213,6 +213,24 @@ header nav a:hover {
   min-height: 100vh;
   max-height: auto;
   padding: 70px 10% 0;
+  border: 2px solid gray;
+}
+
+.section-title h2 {
+  padding-top: 0.8rem;
+  text-align: center;
+  font-size: 45px;
+}
+.section-title h2 span {
+  color: #0ef;
+}
+
+.skills {
+  width: 100%;
+  min-height: 100vh;
+  max-height: auto;
+  padding: 70px 10% 0;
+  border: 2px solid gray;
 }
 
 .section-title h2 {
@@ -374,8 +392,8 @@ header nav a:hover {
   }
   /* ====================About Section==================== */
   .section-title h2 {
-    padding-top: 0.8rem;
-    font-size: 30px;
+    padding-top: 0.4rem;
+    font-size: 25px;
   }
   .section-title h2 span {
     color: #0ef;
