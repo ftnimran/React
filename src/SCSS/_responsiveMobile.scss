@@ -122,8 +122,52 @@
 
   /* ====================About Section==================== */
 
+
+  .about {
+    padding: 70px 5% 0;
+  }
+
   .section-title h2 {
     @include section-title-mobile;
+  }
+
+  .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    margin-top: 3rem;
+  }
+
+  .about-picture img {
+    height: 13rem;
+    width: 13rem;
+  }
+
+  .about-content {
+    width: 100%;
+
+    h1 {
+      font-size: 2.35rem;
+      font-weight: 700px;
+      margin: -3px 0;
+      padding: 20px 0 10px;
+    }
+
+    h5 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      padding-bottom: 8px;
+    }
+
+    p {
+      font-size: 1.1rem;
+    }
+
+    .btn-box {
+      margin-top: 35px;
+    }
   }
 
 
@@ -132,6 +176,11 @@
 
 
   /* ====================Skills Section==================== */
+
+
+  .skills {
+    padding: 70px 5% 0;
+  }
 
   .section-title h2 {
     @include section-title-mobile;
